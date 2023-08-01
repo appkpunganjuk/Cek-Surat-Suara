@@ -33,6 +33,7 @@ $(document).ready(function() {
   $('#wa-kabko').change(function() {
     if ($('#wa-kabko').val() !== '18') {
       $('#wa-kec-div').hide()
+      $('#wa-kec').val('')
     } else {
       $('#wa-kec-div').show()
 
