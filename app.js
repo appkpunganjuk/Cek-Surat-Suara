@@ -122,9 +122,9 @@ $(document).ready(function() {
         }
         $('#res-box').append('Surat Suara yang didapat:<br>')
         $('#res-box').append(opstr)
+        location.href = '#end-page'
       })
     }
-    location.href = '#end-page'
   })
 
   function ss_default() {
