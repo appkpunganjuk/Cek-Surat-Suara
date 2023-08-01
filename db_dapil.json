@@ -1,334 +1,496 @@
 {
   "DAPIL_JATIM": [
     {
-      "ID": "37",
-      "KABKO": "KOTA SURABAYA",
-      "DPRRI": "1",
-      "DPRDJATIM": "1"
+      "ID": "18",
+      "KABKO": "Nganjuk",
+      "DPRRI": "8",
+      "DPRDJATIM": "11"
     },
     {
-      "ID": "15",
-      "KABKO": "SIDOARJO",
-      "DPRRI": "1",
-      "DPRDJATIM": "2"
+      "ID": "26",
+      "KABKO": "Bangkalan",
+      "DPRRI": "11",
+      "DPRDJATIM": "14"
     },
     {
-      "ID": "13",
-      "KABKO": "PROBOLINGGO",
+      "ID": "10",
+      "KABKO": "Banyuwangi",
+      "DPRRI": "3",
+      "DPRDJATIM": "4"
+    },
+    {
+      "ID": "05",
+      "KABKO": "Blitar",
+      "DPRRI": "6",
+      "DPRDJATIM": "7"
+    },
+    {
+      "ID": "22",
+      "KABKO": "Bojonegoro",
+      "DPRRI": "9",
+      "DPRDJATIM": "12"
+    },
+    {
+      "ID": "11",
+      "KABKO": "Bondowoso",
+      "DPRRI": "3",
+      "DPRDJATIM": "4"
+    },
+    {
+      "ID": "25",
+      "KABKO": "Gresik",
+      "DPRRI": "10",
+      "DPRDJATIM": "13"
+    },
+    {
+      "ID": "09",
+      "KABKO": "Jember",
+      "DPRRI": "4",
+      "DPRDJATIM": "5"
+    },
+    {
+      "ID": "17",
+      "KABKO": "Jombang",
+      "DPRRI": "8",
+      "DPRDJATIM": "10"
+    },
+    {
+      "ID": "06",
+      "KABKO": "Kediri",
+      "DPRRI": "6",
+      "DPRDJATIM": "8"
+    },
+    {
+      "ID": "24",
+      "KABKO": "Lamongan",
+      "DPRRI": "10",
+      "DPRDJATIM": "13"
+    },
+    {
+      "ID": "08",
+      "KABKO": "Lumajang",
+      "DPRRI": "4",
+      "DPRDJATIM": "5"
+    },
+    {
+      "ID": "19",
+      "KABKO": "Madiun",
+      "DPRRI": "8",
+      "DPRDJATIM": "11"
+    },
+    {
+      "ID": "20",
+      "KABKO": "Magetan",
+      "DPRRI": "7",
+      "DPRDJATIM": "9"
+    },
+    {
+      "ID": "07",
+      "KABKO": "Malang",
+      "DPRRI": "5",
+      "DPRDJATIM": "6"
+    },
+    {
+      "ID": "16",
+      "KABKO": "Mojokerto",
+      "DPRRI": "8",
+      "DPRDJATIM": "10"
+    },
+    {
+      "ID": "21",
+      "KABKO": "Ngawi",
+      "DPRRI": "7",
+      "DPRDJATIM": "9"
+    },
+    {
+      "ID": "01",
+      "KABKO": "Pacitan",
+      "DPRRI": "7",
+      "DPRDJATIM": "9"
+    },
+    {
+      "ID": "28",
+      "KABKO": "Pamekasan",
+      "DPRRI": "11",
+      "DPRDJATIM": "14"
+    },
+    {
+      "ID": "14",
+      "KABKO": "Pasuruan",
       "DPRRI": "2",
       "DPRDJATIM": "3"
     },
     {
-      "ID": "14",
-      "KABKO": "PASURUAN",
+      "ID": "02",
+      "KABKO": "Ponorogo",
+      "DPRRI": "7",
+      "DPRDJATIM": "9"
+    },
+    {
+      "ID": "13",
+      "KABKO": "Probolinggo",
+      "DPRRI": "2",
+      "DPRDJATIM": "3"
+    },
+    {
+      "ID": "27",
+      "KABKO": "Sampang",
+      "DPRRI": "11",
+      "DPRDJATIM": "14"
+    },
+    {
+      "ID": "15",
+      "KABKO": "Sidoarjo",
+      "DPRRI": "1",
+      "DPRDJATIM": "2"
+    },
+    {
+      "ID": "12",
+      "KABKO": "Situbondo",
+      "DPRRI": "3",
+      "DPRDJATIM": "4"
+    },
+    {
+      "ID": "29",
+      "KABKO": "Sumenep",
+      "DPRRI": "11",
+      "DPRDJATIM": "14"
+    },
+    {
+      "ID": "03",
+      "KABKO": "Trenggalek",
+      "DPRRI": "7",
+      "DPRDJATIM": "9"
+    },
+    {
+      "ID": "23",
+      "KABKO": "Tuban",
+      "DPRRI": "9",
+      "DPRDJATIM": "12"
+    },
+    {
+      "ID": "04",
+      "KABKO": "Tulungagung",
+      "DPRRI": "6",
+      "DPRDJATIM": "7"
+    },
+    {
+      "ID": "38",
+      "KABKO": "Kota Batu",
+      "DPRRI": "5",
+      "DPRDJATIM": "6"
+    },
+    {
+      "ID": "31",
+      "KABKO": "Kota Blitar",
+      "DPRRI": "6",
+      "DPRDJATIM": "7"
+    },
+    {
+      "ID": "30",
+      "KABKO": "Kota Kediri",
+      "DPRRI": "6",
+      "DPRDJATIM": "8"
+    },
+    {
+      "ID": "36",
+      "KABKO": "Kota Madiun",
+      "DPRRI": "8",
+      "DPRDJATIM": "11"
+    },
+    {
+      "ID": "32",
+      "KABKO": "Kota Malang",
+      "DPRRI": "5",
+      "DPRDJATIM": "6"
+    },
+    {
+      "ID": "35",
+      "KABKO": "Kota Mojokerto",
+      "DPRRI": "8",
+      "DPRDJATIM": "10"
+    },
+    {
+      "ID": "34",
+      "KABKO": "Kota Pasuruan",
       "DPRRI": "2",
       "DPRDJATIM": "3"
     },
     {
       "ID": "33",
-      "KABKO": "KOTA PROBOLINGGO",
+      "KABKO": "Kota Probolinggo",
       "DPRRI": "2",
       "DPRDJATIM": "3"
     },
     {
-      "ID": "34",
-      "KABKO": "KOTA PASURUAN",
-      "DPRRI": "2",
-      "DPRDJATIM": "3"
+      "ID": "37",
+      "KABKO": "Kota Surabaya",
+      "DPRRI": "1",
+      "DPRDJATIM": "1"
     },
     {
-      "ID": "10",
-      "KABKO": "BANYUWANGI",
-      "DPRRI": "3",
-      "DPRDJATIM": "4"
-    },
-    {
-      "ID": "11",
-      "KABKO": "BONDOWOSO",
-      "DPRRI": "3",
-      "DPRDJATIM": "4"
-    },
-    {
-      "ID": "12",
-      "KABKO": "SITUBONDO",
-      "DPRRI": "3",
-      "DPRDJATIM": "4"
-    },
-    {
-      "ID": "08",
-      "KABKO": "LUMAJANG",
-      "DPRRI": "4",
-      "DPRDJATIM": "5"
-    },
-    {
-      "ID": "09",
-      "KABKO": "JEMBER",
-      "DPRRI": "4",
-      "DPRDJATIM": "5"
-    },
-    {
-      "ID": "07",
-      "KABKO": "MALANG",
-      "DPRRI": "5",
-      "DPRDJATIM": "6"
-    },
-    {
-      "ID": "32",
-      "KABKO": "KOTA MALANG",
-      "DPRRI": "5",
-      "DPRDJATIM": "6"
-    },
-    {
-      "ID": "38",
-      "KABKO": "KOTA BATU",
-      "DPRRI": "5",
-      "DPRDJATIM": "6"
-    },
-    {
-      "ID": "04",
-      "KABKO": "TULUNGAGUNG",
-      "DPRRI": "6",
-      "DPRDJATIM": "7"
-    },
-    {
-      "ID": "05",
-      "KABKO": "BLITAR",
-      "DPRRI": "6",
-      "DPRDJATIM": "7"
-    },
-    {
-      "ID": "06",
-      "KABKO": "KEDIRI",
-      "DPRRI": "6",
-      "DPRDJATIM": "8"
-    },
-    {
-      "ID": "30",
-      "KABKO": "KOTA KEDIRI",
-      "DPRRI": "6",
-      "DPRDJATIM": "8"
-    },
-    {
-      "ID": "31",
-      "KABKO": "KOTA BLITAR",
-      "DPRRI": "6",
-      "DPRDJATIM": "7"
-    },
+      "ID": "00",
+      "KABKO": "KTP Luar Jatim",
+      "DPRRI": "0",
+      "DPRDJATIM": "0"
+    }
+  ], "DAPIL_NGANJUK": [
     {
       "ID": "01",
-      "KABKO": "PACITAN",
-      "DPRRI": "7",
-      "DPRDJATIM": "9"
+      "KECAMATAN": "Sawahan",
+      "DPRDKABKO": "5"
     },
     {
       "ID": "02",
-      "KABKO": "PONOROGO",
-      "DPRRI": "7",
-      "DPRDJATIM": "9"
+      "KECAMATAN": "Ngetos",
+      "DPRDKABKO": "5"
     },
     {
       "ID": "03",
-      "KABKO": "TRENGGALEK",
-      "DPRRI": "7",
-      "DPRDJATIM": "9"
+      "KECAMATAN": "Berbek",
+      "DPRDKABKO": "5"
     },
     {
-      "ID": "20",
-      "KABKO": "MAGETAN",
-      "DPRRI": "7",
-      "DPRDJATIM": "9"
+      "ID": "04",
+      "KECAMATAN": "Loceret",
+      "DPRDKABKO": "5"
     },
     {
-      "ID": "21",
-      "KABKO": "NGAWI",
-      "DPRRI": "7",
-      "DPRDJATIM": "9"
+      "ID": "05",
+      "KECAMATAN": "Pace",
+      "DPRDKABKO": "4"
     },
     {
-      "ID": "16",
-      "KABKO": "MOJOKERTO",
-      "DPRRI": "8",
-      "DPRDJATIM": "10"
+      "ID": "06",
+      "KECAMATAN": "Prambon",
+      "DPRDKABKO": "3"
     },
     {
-      "ID": "17",
-      "KABKO": "JOMBANG",
-      "DPRRI": "8",
-      "DPRDJATIM": "10"
+      "ID": "07",
+      "KECAMATAN": "Ngronggot",
+      "DPRDKABKO": "3"
     },
     {
-      "ID": "18",
-      "KABKO": "NGANJUK",
-      "DPRRI": "8",
-      "DPRDJATIM": "11"
+      "ID": "08",
+      "KECAMATAN": "Kertosono",
+      "DPRDKABKO": "3"
     },
     {
-      "ID": "19",
-      "KABKO": "MADIUN",
-      "DPRRI": "8",
-      "DPRDJATIM": "11"
+      "ID": "09",
+      "KECAMATAN": "Patianrowo",
+      "DPRDKABKO": "2"
     },
     {
-      "ID": "35",
-      "KABKO": "KOTA MOJOKERTO",
-      "DPRRI": "8",
-      "DPRDJATIM": "10"
+      "ID": "10",
+      "KECAMATAN": "Baron",
+      "DPRDKABKO": "2"
     },
     {
-      "ID": "36",
-      "KABKO": "KOTA MADIUN",
-      "DPRRI": "8",
-      "DPRDJATIM": "11"
+      "ID": "11",
+      "KECAMATAN": "Tanjunganom",
+      "DPRDKABKO": "4"
     },
     {
-      "ID": "22",
-      "KABKO": "BOJONEGORO",
-      "DPRRI": "9",
-      "DPRDJATIM": "12"
+      "ID": "12",
+      "KECAMATAN": "Sukomoro",
+      "DPRDKABKO": "4"
     },
-    {
-      "ID": "23",
-      "KABKO": "TUBAN",
-      "DPRRI": "9",
-      "DPRDJATIM": "12"
-    },
-    {
-      "ID": "24",
-      "KABKO": "LAMONGAN",
-      "DPRRI": "10",
-      "DPRDJATIM": "13"
-    },
-    {
-      "ID": "25",
-      "KABKO": "GRESIK",
-      "DPRRI": "10",
-      "DPRDJATIM": "13"
-    },
-    {
-      "ID": "26",
-      "KABKO": "BANGKALAN",
-      "DPRRI": "11",
-      "DPRDJATIM": "14"
-    },
-    {
-      "ID": "27",
-      "KABKO": "SAMPANG",
-      "DPRRI": "11",
-      "DPRDJATIM": "14"
-    },
-    {
-      "ID": "28",
-      "KABKO": "PAMEKASAN",
-      "DPRRI": "11",
-      "DPRDJATIM": "14"
-    },
-    {
-      "ID": "29",
-      "KABKO": "SUMENEP",
-      "DPRRI": "11",
-      "DPRDJATIM": "14"
-    }
-  ],
-  "DAPIL_NGANJUK": [
     {
       "ID": "13",
-      "KECAMATAN": "NGANJUK",
+      "KECAMATAN": "Nganjuk",
       "DPRDKABKO": "1"
     },
     {
       "ID": "14",
-      "KECAMATAN": "BAGOR",
+      "KECAMATAN": "Bagor",
       "DPRDKABKO": "1"
     },
     {
       "ID": "15",
-      "KECAMATAN": "WILANGAN",
+      "KECAMATAN": "Wilangan",
       "DPRDKABKO": "1"
     },
     {
       "ID": "16",
-      "KECAMATAN": "REJOSO",
+      "KECAMATAN": "Rejoso",
       "DPRDKABKO": "1"
     },
     {
-      "ID": "09",
-      "KECAMATAN": "PATIANROWO",
-      "DPRDKABKO": "2"
-    },
-    {
-      "ID": "10",
-      "KECAMATAN": "BARON",
-      "DPRDKABKO": "2"
-    },
-    {
       "ID": "17",
-      "KECAMATAN": "GONDANG",
+      "KECAMATAN": "Gondang",
       "DPRDKABKO": "2"
     },
     {
       "ID": "18",
-      "KECAMATAN": "NGLUYU",
+      "KECAMATAN": "Ngluyu",
       "DPRDKABKO": "2"
     },
     {
       "ID": "19",
-      "KECAMATAN": "LENGKONG",
+      "KECAMATAN": "Lengkong",
       "DPRDKABKO": "2"
     },
     {
       "ID": "20",
-      "KECAMATAN": "JATIKALEN",
+      "KECAMATAN": "Jatikalen",
       "DPRDKABKO": "2"
-    },
-    {
-      "ID": "06",
-      "KECAMATAN": "PRAMBON",
-      "DPRDKABKO": "3"
-    },
-    {
-      "ID": "07",
-      "KECAMATAN": "NGRONGGOT",
-      "DPRDKABKO": "3"
-    },
-    {
-      "ID": "08",
-      "KECAMATAN": "KERTOSONO",
-      "DPRDKABKO": "3"
-    },
-    {
-      "ID": "05",
-      "KECAMATAN": "PACE",
-      "DPRDKABKO": "4"
-    },
+    }
+  ], "PROVINSI": [
     {
       "ID": "11",
-      "KECAMATAN": "TANJUNGANOM",
-      "DPRDKABKO": "4"
+      "PROVINSI": "Aceh"
     },
     {
       "ID": "12",
-      "KECAMATAN": "SUKOMORO",
-      "DPRDKABKO": "4"
+      "PROVINSI": "Sumatera Utara"
     },
     {
-      "ID": "01",
-      "KECAMATAN": "SAWAHAN",
-      "DPRDKABKO": "5"
+      "ID": "13",
+      "PROVINSI": "Sumatra Barat"
     },
     {
-      "ID": "02",
-      "KECAMATAN": "NGETOS",
-      "DPRDKABKO": "5"
+      "ID": "14",
+      "PROVINSI": "Riau"
     },
     {
-      "ID": "03",
-      "KECAMATAN": "BERBEK",
-      "DPRDKABKO": "5"
+      "ID": "15",
+      "PROVINSI": "Jambi"
     },
     {
-      "ID": "04",
-      "KECAMATAN": "LOCERET",
-      "DPRDKABKO": "5"
+      "ID": "16",
+      "PROVINSI": "Sumatra Selatan"
+    },
+    {
+      "ID": "17",
+      "PROVINSI": "Bengkulu"
+    },
+    {
+      "ID": "18",
+      "PROVINSI": "Lampung"
+    },
+    {
+      "ID": "19",
+      "PROVINSI": "Kepulauan Bangka Belitung"
+    },
+    {
+      "ID": "21",
+      "PROVINSI": "Kepulauan Riau"
+    },
+    {
+      "ID": "31",
+      "PROVINSI": "Daerah Khusus Ibukota Jakarta"
+    },
+    {
+      "ID": "32",
+      "PROVINSI": "Jawa Barat"
+    },
+    {
+      "ID": "33",
+      "PROVINSI": "Jawa Tengah"
+    },
+    {
+      "ID": "34",
+      "PROVINSI": "Daerah Istimewa Yogyakarta"
+    },
+    {
+      "ID": "35",
+      "PROVINSI": "Jawa Timur"
+    },
+    {
+      "ID": "36",
+      "PROVINSI": "Banten"
+    },
+    {
+      "ID": "51",
+      "PROVINSI": "Bali"
+    },
+    {
+      "ID": "52",
+      "PROVINSI": "Nusa Tenggara Barat"
+    },
+    {
+      "ID": "53",
+      "PROVINSI": "Nusa Tenggara Timur"
+    },
+    {
+      "ID": "61",
+      "PROVINSI": "Kalimantan Barat"
+    },
+    {
+      "ID": "62",
+      "PROVINSI": "Kalimantan Tengah"
+    },
+    {
+      "ID": "63",
+      "PROVINSI": "Kalimantan Selatan"
+    },
+    {
+      "ID": "64",
+      "PROVINSI": "Kalimantan Timur"
+    },
+    {
+      "ID": "65",
+      "PROVINSI": "Kalimantan Utara"
+    },
+    {
+      "ID": "71",
+      "PROVINSI": "Sulawesi Utara"
+    },
+    {
+      "ID": "72",
+      "PROVINSI": "Sulawesi Tengah"
+    },
+    {
+      "ID": "73",
+      "PROVINSI": "Sulawesi Selatan"
+    },
+    {
+      "ID": "74",
+      "PROVINSI": "Sulawesi Tenggara"
+    },
+    {
+      "ID": "75",
+      "PROVINSI": "Gorontalo"
+    },
+    {
+      "ID": "76",
+      "PROVINSI": "Sulawesi Barat"
+    },
+    {
+      "ID": "81",
+      "PROVINSI": "Maluku"
+    },
+    {
+      "ID": "82",
+      "PROVINSI": "Maluku Utara"
+    },
+    {
+      "ID": "91",
+      "PROVINSI": "Papua"
+    },
+    {
+      "ID": "92",
+      "PROVINSI": "Papua Barat"
+    },
+    {
+      "ID": "93",
+      "PROVINSI": "Papua Selatan"
+    },
+    {
+      "ID": "94",
+      "PROVINSI": "Papua Tengah"
+    },
+    {
+      "ID": "95",
+      "PROVINSI": "Papua Pegunungan"
+    },
+    {
+      "ID": "96",
+      "PROVINSI": "Papua Barat Daya"
+    },
+    {
+      "ID": "00",
+      "PROVINSI": "Luar Negeri"
     }
   ]
 }
