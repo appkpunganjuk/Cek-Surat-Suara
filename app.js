@@ -6,8 +6,9 @@ $(document).ready(function() {
     {'ssname':'Pasangan calon Presiden dan Wakil Presiden','state':'<i class="fas fa-check"></i>'},
     {'ssname':'Anggota DPRD Provinsi','state':'<i class="fas fa-times"></i>'},
     {'ssname':'Anggota DPRD Kabupaten/Kota','state':'<i class="fas fa-times"></i>'}]
+
   $.getJSON('db_dapil.json', function (data) {
-    console.log(data.DAPIL_JATIM) 
+    console.log(data.DAPIL_NGANJUK) 
     // combobox wa-kabko
     for (var i = 0; i < data.DAPIL_JATIM.length; i++) {
       let opt = document.createElement('option')
@@ -19,7 +20,7 @@ $(document).ready(function() {
     for (var j = 0; j < data.DAPIL_NGANJUK.length; j++) {
       let opt = document.createElement('option')
       opt.text = titleCase(data.DAPIL_NGANJUK[j].KECAMATAN)
-      opt.value = data.DAPIL_NGANJUK[j].ID
+      opt.value = data.DAPIL_NGANJUK[j].DPRDKABKO
       $('#wt-kec').append(opt)
     }
 
@@ -35,20 +36,17 @@ $(document).ready(function() {
         for (var i = 0; i <= data.DAPIL_NGANJUK.length; i++) {
           let opt = document.createElement('option')
           opt.text = titleCase(data.DAPIL_NGANJUK[i].KECAMATAN)
-          opt.value = data.DAPIL_NGANJUK[i].ID
+          opt.value = data.DAPIL_NGANJUK[i].DPRDKABKO
           $('#wa-kec').append(opt)
         }
       })
     }
   })
 
-  $('#wt-kec').change(function () {
-
-  })
-
   $('#btn-cek').click(function(){
     ss_default()
     $.getJSON('db_dapil.json', function (data) {
+      // compare dapil jatim
       for(var i=0; i<data.DAPIL_JATIM.length;i++){
         if(data.DAPIL_JATIM[i].ID == $('#wa-kabko').val()) {
           if(data.DAPIL_JATIM[i].DPRRI == "8" && data.DAPIL_JATIM[i].DPRDJATIM == "11"){
@@ -59,6 +57,10 @@ $(document).ready(function() {
           }
           console.log(data.DAPIL_JATIM[i])
         }
+      }
+      // compare dapil nganjuk
+      if($('#wa-kec').val() == $('#wt-kec').val()) {
+        ss[4].state = '<i class="fas fa-check"></i>'
       }
       // create the output
       var opstr = '<div id="op">Surat Suara yang didapat:<br><table border="0">'
