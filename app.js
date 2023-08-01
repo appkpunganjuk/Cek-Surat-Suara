@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+  $('#wa-kabko').select2()
+  $('#wa-kec').select2()
+  $('#wt-kec').select2()
   // load data from JSON file
   var ss = [
     {'ssname':'Anggota DPR','state':'<i class="fas"></i>'}, 
