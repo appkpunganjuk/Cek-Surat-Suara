@@ -52,7 +52,6 @@ $(document).ready(function() {
     wa_kec = $('#wa-kec').val()
   });
 
-<<<<<<< HEAD
   $('#wa-prov').change(function() {
     wa_prov = $(this).val()
     if ($(this).val() == 'Jawa Timur' || $(this).val() == 'Luar Negeri') {
@@ -60,12 +59,6 @@ $(document).ready(function() {
       $('#wa-kec').prop('disabled', false)
       wa_kabko = $('#wa-kabko').val()
       wa_kec = $('#wa-kec').val()
-=======
-  $('#wa-kabko').change(function() {
-    if ($('#wa-kabko').val() !== '18') {
-      $('#wa-kec-div').hide()
-      $('#wa-kec').val('')
->>>>>>> bc8a2ac86c4d4855300b744f95049c029fb4cb60
     } else {
       $('#wa-kabko').prop('disabled', true)
       $('#wa-kec').prop('disabled', true)
