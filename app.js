@@ -21,7 +21,7 @@ $(document).ready(function() {
   function peringatan(judul,pesan,icon) {
     swalWithBootstrapButtons.fire({
       title: judul,
-      text: pesan,
+      html: pesan,
       icon: icon,
       showCancelButton: false,
       confirmButtonText: '&nbsp; OK &nbsp;',
@@ -74,17 +74,18 @@ $(document).ready(function() {
         if (e) {
           if (data.DAPIL_JATIM[i].KABKO == e){
             opt.selected = true
+            wa_kabko = opt.value
           }
         } else {
           if(data.DAPIL_JATIM[i].KABKO == 'Nganjuk') {
             opt.selected = true
+            wa_kabko = opt.value
           }
         }
         $('#wa-kabko').append(opt)
       }
     })
     $('#wa-kabko').select2()
-    wa_kabko = '18'
   }
 
     // combobox wa-kec dan wt-kec
@@ -98,6 +99,9 @@ $(document).ready(function() {
         if(e) {
           if(data.DAPIL_NGANJUK[j].KECAMATAN == e) {
             opt.selected = true
+            wa_kec = opt.value
+          } else {
+            wa_kec = '0'
           }
         }
         $('#wa-kec').append(opt)
@@ -134,9 +138,8 @@ $(document).ready(function() {
     }
 
     if($(this).val() == '00') {
-      peringatan('Informasi','Untuk pemilih pindahan dari Luar Negeri/ TPS Lokasi Khusus silahkan sesuaikan wilayah asal dengan dokumen KTP/ Kartu Keluarganya.','info')
+      peringatan('Informasi','Untuk pemilih pindahan dari Luar Negeri, TPS Lokasi Khusus dan Pindah Domisili:<br><Isikan wilayah asal dengan alamat <strong>KTP-el/KK</strong>.','info')
     }
-    wa_prov = $('#waprov').val()
     wa_kabko = $('#wa-kabko').val()
     wa_kec = $('#wa-kec').val()
   })
@@ -168,6 +171,9 @@ $(document).ready(function() {
   })
 
   $('#btn-cek').click(function(){
+    wa_kabko = $('#wa-kabko').val()
+    wa_kec = $('#wa-kec').val()
+    console.log(wa_prov+' '+wa_kabko+' '+wa_kec)
     ss_default()
     if ($('#wt-kec').val()=='0') {
       // alert('Pilih Wilayah Tujuan dahulu')
