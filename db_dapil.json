@@ -233,8 +233,19 @@
       "KABKO": "KTP Luar Jatim",
       "DPRRI": "0",
       "DPRDJATIM": "0"
+    },
+    {
+      "ID": "-",
+      "KABKO": "-",
+      "DPRRI": "-",
+      "DPRDJATIM": "-"
     }
   ], "DAPIL_NGANJUK": [
+    {
+      "ID": "00",
+      "KECAMATAN": "[Pilih Kecamatan]",
+      "DPRDKABKO": "0"
+    },
     {
       "ID": "01",
       "KECAMATAN": "Sawahan",
@@ -334,6 +345,11 @@
       "ID": "20",
       "KECAMATAN": "Jatikalen",
       "DPRDKABKO": "2"
+    },
+    {
+      "ID": "-",
+      "KECAMATAN": "-",
+      "DPRDKABKO": "-"
     }
   ], "PROVINSI": [
     {
@@ -490,7 +506,7 @@
     },
     {
       "ID": "00",
-      "PROVINSI": "Luar Negeri"
+      "PROVINSI": "Luar Negeri / Lokasi Khusus"
     }
   ]
 }
