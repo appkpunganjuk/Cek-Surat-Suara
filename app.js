@@ -220,6 +220,6 @@ $(document).ready(function() {
   }
 
   $('#bantuan').click(function(){
-    peringatan('Bantuan','Isikan wilayah tujuan sesuai dengan lokasi anda sekarang. Isikan wilayah asal sesuai dengan wilayah asal pemilih yang melakukan pindah pilih. Khusus pemilih pindahan dari luar negeri atau TPS lokasi khusus silahakan pilih "Luar Negeri / TPS Lokasi Khusus" pada isian provinsi dan sesuakan kabupaten/kota hingga kecamatan dengan dokumen KTP nya','question')
+    peringatan('Bantuan','Isikan wilayah tujuan sesuai dengan lokasi anda sekarang. Isikan wilayah asal sesuai dengan wilayah asal pemilih yang melakukan pindah pilih. Khusus pemilih pindahan dari luar negeri atau TPS lokasi khusus silahakan pilih "Luar Negeri / Lokasi Khusus" pada isian provinsi dan sesuakan kabupaten/kota hingga kecamatan dengan dokumen KTP nya','question')
   })
 });
