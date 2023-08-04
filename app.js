@@ -138,7 +138,7 @@ $(document).ready(function() {
     }
 
     if($(this).val() == '00') {
-      peringatan('Informasi','Untuk pemilih pindahan dari Luar Negeri, TPS Lokasi Khusus dan Pindah Domisili:<br><Isikan wilayah asal dengan alamat <strong>KTP-el/KK</strong>.','info')
+      peringatan('Informasi','Untuk pemilih pindahan dari Luar Negeri, TPS Lokasi Khusus dan Pindah Domisili:<br>Isikan wilayah asal dengan alamat <strong>KTP-el/KK</strong>.','info')
     }
     wa_kabko = $('#wa-kabko').val()
     wa_kec = $('#wa-kec').val()
