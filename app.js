@@ -130,14 +130,16 @@ $(document).ready(function() {
     if ($(this).val() == '01' || $(this).val() == '03' || $(this).val() == '04' || $(this).val() == '05') {
       loadwakabko('Nganjuk')
       loadwakec()
+      $('#wa-kabko').prop('disabled', false)
+      $('#wa-kec').prop('disabled', false)
+      
       if ($(this).val() == '03' || $(this).val() == '04' || $(this).val() == '05') {
         $('#wa-ktp-div').show()
       } else {
         $('#wa-ktp-div').hide()
-        $('#wa-kabko').prop('disabled', false)
-        $('#wa-kec').prop('disabled', false)
       }
     } else {
+      $('#wa-ktp-div').hide()
       loadwakabko('-')
       loadwakec('-')
       $('#wa-kabko').prop('disabled', true)
@@ -186,7 +188,7 @@ $(document).ready(function() {
   })
 
   $('#wt-kec').change(function() {
-    wa_prov = $('#waprov').val()
+    wa_prov = $('#wa-prov').val()
     wa_kabko = $('#wa-kabko').val()
     wa_kec = $('#wa-kec').val()
   })
