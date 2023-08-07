@@ -3,6 +3,8 @@ $(document).ready(function() {
   loadwakabko()
   loadwakec()
   loadwtkec()
+  $('#wa-ktp').select2()
+  $('#wa-ktp-div').hide()
 
   var wa_prov = ''
   var wa_kabko = ''
@@ -128,8 +130,13 @@ $(document).ready(function() {
     if ($(this).val() == '01' || $(this).val() == '03' || $(this).val() == '04' || $(this).val() == '05') {
       loadwakabko('Nganjuk')
       loadwakec()
-      $('#wa-kabko').prop('disabled', false)
-      $('#wa-kec').prop('disabled', false)
+      if ($(this).val() == '03' || $(this).val() == '04' || $(this).val() == '05') {
+        $('#wa-ktp-div').show()
+      } else {
+        $('#wa-ktp-div').hide()
+        $('#wa-kabko').prop('disabled', false)
+        $('#wa-kec').prop('disabled', false)
+      }
     } else {
       loadwakabko('-')
       loadwakec('-')
@@ -142,6 +149,20 @@ $(document).ready(function() {
     }
     wa_kabko = $('#wa-kabko').val()
     wa_kec = $('#wa-kec').val()
+  })
+
+  $('#wa-ktp').change(function() {
+    if($(this).val() == '1') {
+      loadwakabko('Nganjuk')
+      loadwakec()
+      $('#wa-kabko').prop('disabled', false)
+      $('#wa-kec').prop('disabled', false)
+    } else {
+      loadwakabko('-')
+      loadwakec('-')
+      $('#wa-kabko').prop('disabled', true)
+      $('#wa-kec').prop('disabled', true)
+    }
   })
 
   $('#wa-kabko').change(function() {
@@ -195,6 +216,11 @@ $(document).ready(function() {
             console.log(data.DAPIL_PROV[i])
           }
         }
+        // compare DPD
+        if(wa_prov !== '02') {
+          ss[1].state='<i class="fas fa-check"></i>'
+        }
+
         // compare dapil nganjuk
         if(wa_kec == $('#wt-kec').val()) {
           ss[4].state = '<i class="fas fa-check"></i>'
@@ -221,6 +247,7 @@ $(document).ready(function() {
 
   function ss_default() {
     ss[0].state='<i class="fas fa-times"></i>'
+    ss[1].state='<i class="fas fa-times"></i>'
     ss[3].state='<i class="fas fa-times"></i>'
     ss[4].state='<i class="fas fa-times"></i>'
   }
