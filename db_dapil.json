@@ -10,7 +10,15 @@
     },
     {
       "ID": "03",
-      "PROVINSI": "Luar Negeri/TPS Lokasi Khusus"
+      "PROVINSI": "Luar Negeri"
+    },
+    {
+      "ID": "04",
+      "PROVINSI": "TPS Lokasi Khusus"
+    },
+    {
+      "ID": "05",
+      "PROVINSI": "Pindah Domisili"
     }
   ],
 "DAPIL_PROV": [

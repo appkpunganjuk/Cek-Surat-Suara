@@ -125,7 +125,7 @@ $(document).ready(function() {
 
   $('#wa-prov').change(function() {
     wa_prov = $(this).val()
-    if ($(this).val() == '01' || $(this).val() == '03') {
+    if ($(this).val() == '01' || $(this).val() == '03' || $(this).val() == '04' || $(this).val() == '05') {
       loadwakabko('Nganjuk')
       loadwakec()
       $('#wa-kabko').prop('disabled', false)
@@ -226,6 +226,6 @@ $(document).ready(function() {
   }
 
   $('#bantuan').click(function(){
-    peringatan('Bantuan','<ul class="text-start"><li>Isikan wilayah tujuan sesuai dengan lokasi anda sekarang.</li><li>Isikan wilayah asal sesuai dengan wilayah asal pemilih yang melakukan pindah pilih.</li><li>Khusus pemilih pindahan dari luar negeri atau TPS lokasi khusus silahakan pilih <strong>Luar Negeri/TPS Lokasi Khusus</strong> pada isian provinsi dan sesuaikan kabupaten/kota hingga kecamatan dengan dokumen KTP-el</li><li>Khusus pemilih pindahan dengan alasan pindah domisili, isikan wilayah asal sesuai dengan dokumen KTP-el</li></ul>','question')
+    peringatan('Bantuan','<ul class="text-start"><li>Isikan wilayah tujuan sesuai dengan lokasi anda sekarang.</li><li>Isikan wilayah asal sesuai dengan wilayah asal pemilih yang melakukan pindah pilih.</li><li>Khusus pemilih pindahan dari luar negeri atau TPS lokasi khusus silahakan pilih <strong>Luar Negeri / TPS Lokasi Khusus</strong> pada isian provinsi dan sesuaikan kabupaten/kota hingga kecamatan dengan dokumen KTP-el</li><li>Khusus pemilih pindahan dengan alasan pindah domisili, isikan wilayah asal sesuai dengan dokumen KTP-el</li></ul>','question')
   })
 });
