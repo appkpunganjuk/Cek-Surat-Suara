@@ -1,5 +1,19 @@
 {
-  "DAPIL_JATIM": [
+"WILAYAH": [
+    {
+      "ID": "01",
+      "PROVINSI": "Jawa Timur"
+    },
+    {
+      "ID": "02",
+      "PROVINSI": "Luar Jawa Timur"
+    },
+    {
+      "ID": "03",
+      "PROVINSI": "Luar Negeri/TPS Lokasi Khusus"
+    }
+  ],
+"DAPIL_PROV": [
     {
       "ID": "18",
       "KABKO": "Nganjuk",
@@ -229,87 +243,23 @@
       "DPRDJATIM": "1"
     },
     {
-      "ID": "00",
-      "KABKO": "KTP Luar Jatim",
-      "DPRRI": "0",
-      "DPRDJATIM": "0"
-    },
-    {
-      "ID": "-",
+      "ID": "XX",
       "KABKO": "-",
       "DPRRI": "-",
       "DPRDJATIM": "-"
+    },
+    {
+      "ID": "YY",
+      "KABKO": "KTP Luar Jatim",
+      "DPRRI": "0",
+      "DPRDJATIM": "0"
     }
-  ], "DAPIL_NGANJUK": [
+  ],
+"DAPIL_KABKO": [
     {
       "ID": "00",
       "KECAMATAN": "[Pilih Kecamatan]",
       "DPRDKABKO": "0"
-    },
-    {
-      "ID": "01",
-      "KECAMATAN": "Sawahan",
-      "DPRDKABKO": "5"
-    },
-    {
-      "ID": "02",
-      "KECAMATAN": "Ngetos",
-      "DPRDKABKO": "5"
-    },
-    {
-      "ID": "03",
-      "KECAMATAN": "Berbek",
-      "DPRDKABKO": "5"
-    },
-    {
-      "ID": "04",
-      "KECAMATAN": "Loceret",
-      "DPRDKABKO": "5"
-    },
-    {
-      "ID": "05",
-      "KECAMATAN": "Pace",
-      "DPRDKABKO": "4"
-    },
-    {
-      "ID": "06",
-      "KECAMATAN": "Prambon",
-      "DPRDKABKO": "3"
-    },
-    {
-      "ID": "07",
-      "KECAMATAN": "Ngronggot",
-      "DPRDKABKO": "3"
-    },
-    {
-      "ID": "08",
-      "KECAMATAN": "Kertosono",
-      "DPRDKABKO": "3"
-    },
-    {
-      "ID": "09",
-      "KECAMATAN": "Patianrowo",
-      "DPRDKABKO": "2"
-    },
-    {
-      "ID": "10",
-      "KECAMATAN": "Baron",
-      "DPRDKABKO": "2"
-    },
-    {
-      "ID": "11",
-      "KECAMATAN": "Tanjunganom",
-      "DPRDKABKO": "4"
-    },
-    {
-      "ID": "12",
-      "KECAMATAN": "Sukomoro",
-      "DPRDKABKO": "4"
-    },
-    {
-      "ID": "13",
-      "KECAMATAN": "Nganjuk",
-      "DPRDKABKO": "1"
     },
     {
       "ID": "14",
@@ -317,28 +267,18 @@
       "DPRDKABKO": "1"
     },
     {
-      "ID": "15",
-      "KECAMATAN": "Wilangan",
-      "DPRDKABKO": "1"
+      "ID": "10",
+      "KECAMATAN": "Baron",
+      "DPRDKABKO": "2"
     },
     {
-      "ID": "16",
-      "KECAMATAN": "Rejoso",
-      "DPRDKABKO": "1"
+      "ID": "03",
+      "KECAMATAN": "Berbek",
+      "DPRDKABKO": "5"
     },
     {
       "ID": "17",
       "KECAMATAN": "Gondang",
-      "DPRDKABKO": "2"
-    },
-    {
-      "ID": "18",
-      "KECAMATAN": "Ngluyu",
-      "DPRDKABKO": "2"
-    },
-    {
-      "ID": "19",
-      "KECAMATAN": "Lengkong",
       "DPRDKABKO": "2"
     },
     {
@@ -347,166 +287,84 @@
       "DPRDKABKO": "2"
     },
     {
-      "ID": "-",
-      "KECAMATAN": "-",
-      "DPRDKABKO": "-"
-    }
-  ], "PROVINSI": [
-    {
-      "ID": "11",
-      "PROVINSI": "Aceh"
-    },
-    {
-      "ID": "12",
-      "PROVINSI": "Sumatera Utara"
-    },
-    {
-      "ID": "13",
-      "PROVINSI": "Sumatra Barat"
-    },
-    {
-      "ID": "14",
-      "PROVINSI": "Riau"
-    },
-    {
-      "ID": "15",
-      "PROVINSI": "Jambi"
-    },
-    {
-      "ID": "16",
-      "PROVINSI": "Sumatra Selatan"
-    },
-    {
-      "ID": "17",
-      "PROVINSI": "Bengkulu"
-    },
-    {
-      "ID": "18",
-      "PROVINSI": "Lampung"
+      "ID": "08",
+      "KECAMATAN": "Kertosono",
+      "DPRDKABKO": "3"
     },
     {
       "ID": "19",
-      "PROVINSI": "Kepulauan Bangka Belitung"
+      "KECAMATAN": "Lengkong",
+      "DPRDKABKO": "2"
     },
     {
-      "ID": "21",
-      "PROVINSI": "Kepulauan Riau"
+      "ID": "04",
+      "KECAMATAN": "Loceret",
+      "DPRDKABKO": "5"
     },
     {
-      "ID": "31",
-      "PROVINSI": "Daerah Khusus Ibukota Jakarta"
+      "ID": "13",
+      "KECAMATAN": "Nganjuk",
+      "DPRDKABKO": "1"
     },
     {
-      "ID": "32",
-      "PROVINSI": "Jawa Barat"
+      "ID": "02",
+      "KECAMATAN": "Ngetos",
+      "DPRDKABKO": "5"
     },
     {
-      "ID": "33",
-      "PROVINSI": "Jawa Tengah"
+      "ID": "18",
+      "KECAMATAN": "Ngluyu",
+      "DPRDKABKO": "2"
     },
     {
-      "ID": "34",
-      "PROVINSI": "Daerah Istimewa Yogyakarta"
+      "ID": "07",
+      "KECAMATAN": "Ngronggot",
+      "DPRDKABKO": "3"
     },
     {
-      "ID": "35",
-      "PROVINSI": "Jawa Timur"
+      "ID": "05",
+      "KECAMATAN": "Pace",
+      "DPRDKABKO": "4"
     },
     {
-      "ID": "36",
-      "PROVINSI": "Banten"
+      "ID": "09",
+      "KECAMATAN": "Patianrowo",
+      "DPRDKABKO": "2"
     },
     {
-      "ID": "51",
-      "PROVINSI": "Bali"
+      "ID": "06",
+      "KECAMATAN": "Prambon",
+      "DPRDKABKO": "3"
     },
     {
-      "ID": "52",
-      "PROVINSI": "Nusa Tenggara Barat"
+      "ID": "16",
+      "KECAMATAN": "Rejoso",
+      "DPRDKABKO": "1"
     },
     {
-      "ID": "53",
-      "PROVINSI": "Nusa Tenggara Timur"
+      "ID": "01",
+      "KECAMATAN": "Sawahan",
+      "DPRDKABKO": "5"
     },
     {
-      "ID": "61",
-      "PROVINSI": "Kalimantan Barat"
+      "ID": "12",
+      "KECAMATAN": "Sukomoro",
+      "DPRDKABKO": "4"
     },
     {
-      "ID": "62",
-      "PROVINSI": "Kalimantan Tengah"
+      "ID": "11",
+      "KECAMATAN": "Tanjunganom",
+      "DPRDKABKO": "4"
     },
     {
-      "ID": "63",
-      "PROVINSI": "Kalimantan Selatan"
+      "ID": "15",
+      "KECAMATAN": "Wilangan",
+      "DPRDKABKO": "1"
     },
     {
-      "ID": "64",
-      "PROVINSI": "Kalimantan Timur"
-    },
-    {
-      "ID": "65",
-      "PROVINSI": "Kalimantan Utara"
-    },
-    {
-      "ID": "71",
-      "PROVINSI": "Sulawesi Utara"
-    },
-    {
-      "ID": "72",
-      "PROVINSI": "Sulawesi Tengah"
-    },
-    {
-      "ID": "73",
-      "PROVINSI": "Sulawesi Selatan"
-    },
-    {
-      "ID": "74",
-      "PROVINSI": "Sulawesi Tenggara"
-    },
-    {
-      "ID": "75",
-      "PROVINSI": "Gorontalo"
-    },
-    {
-      "ID": "76",
-      "PROVINSI": "Sulawesi Barat"
-    },
-    {
-      "ID": "81",
-      "PROVINSI": "Maluku"
-    },
-    {
-      "ID": "82",
-      "PROVINSI": "Maluku Utara"
-    },
-    {
-      "ID": "91",
-      "PROVINSI": "Papua"
-    },
-    {
-      "ID": "92",
-      "PROVINSI": "Papua Barat"
-    },
-    {
-      "ID": "93",
-      "PROVINSI": "Papua Selatan"
-    },
-    {
-      "ID": "94",
-      "PROVINSI": "Papua Tengah"
-    },
-    {
-      "ID": "95",
-      "PROVINSI": "Papua Pegunungan"
-    },
-    {
-      "ID": "96",
-      "PROVINSI": "Papua Barat Daya"
-    },
-    {
-      "ID": "00",
-      "PROVINSI": "Luar Negeri / Lokasi Khusus"
+      "ID": "XX",
+      "KECAMATAN": "-",
+      "DPRDKABKO": "-"
     }
   ]
 }

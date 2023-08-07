@@ -43,16 +43,16 @@ $(document).ready(function() {
   function loadwaprov(e) {
     $('#wa-prov').find('option').remove()
     $.getJSON('db_dapil.json', function(data) {
-      for (var h=0; h<data.PROVINSI.length; h++) {
+      for (var h=0; h<data.WILAYAH.length; h++) {
         let opt = document.createElement('option')
-        opt.text = data.PROVINSI[h].PROVINSI
-        opt.value = data.PROVINSI[h].ID
+        opt.text = data.WILAYAH[h].PROVINSI
+        opt.value = data.WILAYAH[h].ID
         if(e) {
-          if (data.PROVINSI[h].PROVINSI == e){
+          if (data.WILAYAH[h].PROVINSI == e){
             opt.selected = true
           }
         } else {
-          if (data.PROVINSI[h].PROVINSI == 'Jawa Timur'){
+          if (data.WILAYAH[h].PROVINSI == 'Jawa Timur'){
             opt.selected = true
           }
         }
@@ -67,17 +67,17 @@ $(document).ready(function() {
   function loadwakabko(e) {
     $('#wa-kabko').find('option').remove()
     $.getJSON('db_dapil.json', function(data) {
-      for (var i = 0; i < data.DAPIL_JATIM.length; i++) {
+      for (var i = 0; i < data.DAPIL_PROV.length; i++) {
         let opt = document.createElement('option')
-        opt.text = data.DAPIL_JATIM[i].KABKO
-        opt.value = data.DAPIL_JATIM[i].ID
+        opt.text = data.DAPIL_PROV[i].KABKO
+        opt.value = data.DAPIL_PROV[i].ID
         if (e) {
-          if (data.DAPIL_JATIM[i].KABKO == e){
+          if (data.DAPIL_PROV[i].KABKO == e){
             opt.selected = true
             wa_kabko = opt.value
           }
         } else {
-          if(data.DAPIL_JATIM[i].KABKO == 'Nganjuk') {
+          if(data.DAPIL_PROV[i].KABKO == 'Nganjuk') {
             opt.selected = true
             wa_kabko = opt.value
           }
@@ -92,12 +92,12 @@ $(document).ready(function() {
   function loadwakec(e) {
     $('#wa-kec').find('option').remove()
     $.getJSON('db_dapil.json', function(data) {
-      for (var j = 0; j < data.DAPIL_NGANJUK.length; j++) {
+      for (var j = 0; j < data.DAPIL_KABKO.length; j++) {
         let opt = document.createElement('option')
-        opt.text = data.DAPIL_NGANJUK[j].KECAMATAN
-        opt.value = data.DAPIL_NGANJUK[j].DPRDKABKO
+        opt.text = data.DAPIL_KABKO[j].KECAMATAN
+        opt.value = data.DAPIL_KABKO[j].DPRDKABKO
         if(e) {
-          if(data.DAPIL_NGANJUK[j].KECAMATAN == e) {
+          if(data.DAPIL_KABKO[j].KECAMATAN == e) {
             opt.selected = true
             wa_kec = opt.value
           } else {
@@ -113,10 +113,10 @@ $(document).ready(function() {
   function loadwtkec() {
     $('#wt-kec').find('option').remove()
     $.getJSON('db_dapil.json', function(data) {
-      for (var j = 0; j < data.DAPIL_NGANJUK.length; j++) {
+      for (var j = 0; j < data.DAPIL_KABKO.length; j++) {
         let opt = document.createElement('option')
-        opt.text = data.DAPIL_NGANJUK[j].KECAMATAN
-        opt.value = data.DAPIL_NGANJUK[j].DPRDKABKO
+        opt.text = data.DAPIL_KABKO[j].KECAMATAN
+        opt.value = data.DAPIL_KABKO[j].DPRDKABKO
         $('#wt-kec').append(opt)
       }
     })
@@ -125,7 +125,7 @@ $(document).ready(function() {
 
   $('#wa-prov').change(function() {
     wa_prov = $(this).val()
-    if ($(this).val() == '35' || $(this).val() == '00') {
+    if ($(this).val() == '01' || $(this).val() == '03') {
       loadwakabko('Nganjuk')
       loadwakec()
       $('#wa-kabko').prop('disabled', false)
@@ -184,15 +184,15 @@ $(document).ready(function() {
     } else {
       $.getJSON('db_dapil.json', function (data) {
         // compare dapil jatim
-        for(var i=0; i<data.DAPIL_JATIM.length;i++){
-          if(data.DAPIL_JATIM[i].ID == wa_kabko) {
-            if(data.DAPIL_JATIM[i].DPRRI == "8" && data.DAPIL_JATIM[i].DPRDJATIM == "11"){
+        for(var i=0; i<data.DAPIL_PROV.length;i++){
+          if(data.DAPIL_PROV[i].ID == wa_kabko) {
+            if(data.DAPIL_PROV[i].DPRRI == "8" && data.DAPIL_PROV[i].DPRDJATIM == "11"){
               ss[0].state = '<i class="fas fa-check"></i>'
               ss[3].state = '<i class="fas fa-check"></i>'
-            } else if(data.DAPIL_JATIM[i].DPRRI == "8" && data.DAPIL_JATIM[i].DPRDJATIM !== "11") {
+            } else if(data.DAPIL_PROV[i].DPRRI == "8" && data.DAPIL_PROV[i].DPRDJATIM !== "11") {
               ss[0].state = '<i class="fas fa-check"></i>'
             }
-            console.log(data.DAPIL_JATIM[i])
+            console.log(data.DAPIL_PROV[i])
           }
         }
         // compare dapil nganjuk
@@ -226,6 +226,6 @@ $(document).ready(function() {
   }
 
   $('#bantuan').click(function(){
-    peringatan('Bantuan','Isikan wilayah tujuan sesuai dengan lokasi anda sekarang. Isikan wilayah asal sesuai dengan wilayah asal pemilih yang melakukan pindah pilih. Khusus pemilih pindahan dari luar negeri atau TPS lokasi khusus silahakan pilih "Luar Negeri / Lokasi Khusus" pada isian provinsi dan sesuakan kabupaten/kota hingga kecamatan dengan dokumen KTP nya','question')
+    peringatan('Bantuan','<ul class="text-start"><li>Isikan wilayah tujuan sesuai dengan lokasi anda sekarang.</li><li>Isikan wilayah asal sesuai dengan wilayah asal pemilih yang melakukan pindah pilih.</li><li>Khusus pemilih pindahan dari luar negeri atau TPS lokasi khusus silahakan pilih <strong>Luar Negeri/TPS Lokasi Khusus</strong> pada isian provinsi dan sesuaikan kabupaten/kota hingga kecamatan dengan dokumen KTP-el</li><li>Khusus pemilih pindahan dengan alasan pindah domisili, isikan wilayah asal sesuai dengan dokumen KTP-el</li></ul>','question')
   })
 });
